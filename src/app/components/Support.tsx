@@ -24,7 +24,7 @@ export function Support() {
       </div>
 
       <div className="mt-4 pt-4 border-t border-neutral-800 text-xs text-neutral-500">
-        <div>Email: soporte.tecnico@iprocess.ind</div>
+        <div>Email: soporte.tecnico@iprocess-ind.com</div>
         <div className="mt-1">Tel: +505 8403 8777</div>
       </div>
     </div>
