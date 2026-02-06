@@ -1,5 +1,5 @@
 import { LogIn } from "lucide-react";
-import logo from "../../img/Logo.png";
+import logo from "../../img/LogoMinimalista.png";
 
 export function Header() {
   return (
