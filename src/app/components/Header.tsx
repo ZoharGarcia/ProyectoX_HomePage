@@ -1,4 +1,5 @@
 import { LogIn } from "lucide-react";
+import logo from "../../img/Logo.png";
 
 export function Header() {
   return (
@@ -8,8 +9,12 @@ export function Header() {
           {/* Logo and System Name */}
           <div className="flex items-center gap-6">
             <div className="flex items-center gap-3">
-              <div className="w-10 h-10 bg-orange-600 rounded flex items-center justify-center font-bold text-lg">
-                iP
+              <div className="w-10 h-10 rounded bg-neutral-900 border border-neutral-800 flex items-center justify-center">
+                <img
+                  src={logo}
+                  alt="Logo de la empresa"
+                  className="w-8 h-8 object-contain"
+                />
               </div>
               <div>
                 <div className="text-xs text-neutral-400 uppercase tracking-wider">
